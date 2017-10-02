@@ -1,0 +1,63 @@
+<!--PRESYS CALIBRATORS TAGMAN FILE-->
+<tagman>
+  <info>
+    <exec>
+      <tag>ddddd</tag>
+      <serial>fffff</serial>
+      <created>01/01/2006 16:29:45</created>
+      <maxerror>0.01</maxerror>
+      <createdby></createdby>
+      <executedby>MCS-XV TASK CREATOR</executedby>
+      <model></model>
+      <manufacturer></manufacturer>
+      <message></message>
+      <localization></localization>
+      <asfoundrepetitions>1</asfoundrepetitions>
+      <asleftrepetitions>1</asleftrepetitions>
+      <asfoundpointscount>0</asfoundpointscount>
+      <asleftpointscount>0</asleftpointscount>
+      <fs>140</fs>
+      <errortype>abs</errortype>
+      <maxout>25.44</maxout>
+      <minout>0.01</minout>
+      <minin>0.01</minin>
+      <db_error>0.01</db_error>
+      <maxin>25.44</maxin>
+    </exec>
+  </info>
+  <input>
+    <type>Switch:</type>
+    <decimals>2</decimals>
+    <min_range>-25</min_range>
+    <max_range>140</max_range>
+    <manual_input>FALSE</manual_input>
+    <has_scale>FALSE</has_scale>
+    <scale_data />
+  </input>
+  <output>
+    <outputlimits>
+      <repeats>5</repeats>
+      <strategy>UP</strategy>
+      <interval>300</interval>
+      <type>DryBlock:STD:INTERNAL:°C</type>
+      <tag />
+    </outputlimits>
+    <points_asfound>
+      <value expected="25.44">0</value>
+      <value expected="0.01">0</value>
+    </points_asfound>
+    <points_asleft>
+      <value expected="25.44">0</value>
+      <value expected="0.01">0</value>
+    </points_asleft>
+  </output>
+  <executed_results>
+    <asfound_operator></asfound_operator>
+  </executed_results>
+  <executed_results>
+    <asleft_operator />
+  </executed_results>
+  <executed_results>
+    <asleft_operator />
+  </executed_results>
+</tagman>
