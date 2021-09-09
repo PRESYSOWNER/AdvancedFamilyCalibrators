@@ -1,0 +1,74 @@
+<!--PRESYS CALIBRATORS TAGMAN FILE-->
+<tagman>
+  <info>
+    <exec>
+      <tag>PI-001(1)</tag>
+      <serial>000020</serial>
+      <created>21/08/2020</created>
+      <maxerror>0.5000</maxerror>
+      <createdby />
+      <executedby />
+      <model />
+      <manufacturer />
+      <message>INICIAR CALIBRA��O</message>
+      <localization />
+      <isoplan_data>OutputLowerRangeValue=0;
+OutputUpperRangeValue=100;
+InputRangeUnits=0;
+OutputRangeUnits=251;
+LocationInCalibrator=8D845F622781696;
+IsInvertedCalibration=False;
+</isoplan_data>
+      <asfoundrepetitions />
+      <asleftrepetitions />
+      <asfoundpointscount />
+      <asleftpointscount />
+      <fs>0</fs>
+      <errortype>span</errortype>
+      <maxout>100</maxout>
+      <minout>0</minout>
+      <minin>0</minin>
+      <maxin>100</maxin>
+    </exec>
+  </info>
+  <input>
+    <type>General:NO</type>
+    <decimals>4</decimals>
+    <min_range>0</min_range>
+    <max_range>100</max_range>
+    <manual_input>TRUE</manual_input>
+  </input>
+  <output>
+    <outputlimits>
+      <repeats>5</repeats>
+      <strategy>UP</strategy>
+      <interval>1</interval>
+      <type>PRESSGEN:psi:NORMAL</type>
+      <tag />
+    </outputlimits>
+    <points_asfound>
+      <value expected="0">0</value>
+      <value expected="25">25</value>
+      <value expected="50">50</value>
+      <value expected="75">75</value>
+      <value expected="100">100</value>
+    </points_asfound>
+    <points_asleft>
+      <value expected="0">0</value>
+      <value expected="25">25</value>
+      <value expected="50">50</value>
+      <value expected="75">75</value>
+      <value expected="100">100</value>
+      <value expected="0">0</value>
+      <value expected="25">25</value>
+      <value expected="50">50</value>
+      <value expected="75">75</value>
+      <value expected="100">100</value>
+      <value expected="0">0</value>
+      <value expected="25">25</value>
+      <value expected="50">50</value>
+      <value expected="75">75</value>
+      <value expected="100">100</value>
+    </points_asleft>
+  </output>  
+</tagman>
